@@ -1,0 +1,58 @@
+/* estilos generales */
+
+ body{
+    background-color:black;
+}
+
+/* estilos de header */
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF9C00;
+    padding-right: 25px;
+    
+}
+
+header img{
+     width: 35%;
+     display: flex;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:#FF9C00 ;
+}
+
+/* estilos de main */
+main{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+}
+main img{
+    width: 300px;
+    height: 180px;
+    display: grid;
+    justify-content:space-between;
+}
+
+/* estilos de footer */
+
+footer{
+    text-align: center;
+    color:whitesmoke;
+}
