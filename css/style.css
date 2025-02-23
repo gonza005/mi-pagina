@@ -1,7 +1,7 @@
 /* estilos generales */
 
  body{
-    background-color:black;
+    background-color:crimson;
 }
 
 /* estilos de header */
@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FF9C00;
+    background-color: yellowgreen;
     padding-right: 25px;
     
 }
@@ -55,4 +55,24 @@ main img{
 footer{
     text-align: center;
     color:whitesmoke;
+}
+
+@media (width <= 500px) {
+    header {
+        background-color: salmon
+    }
+    body {
+        color: white;
+        background-color: grey
+        
+    }
+}
+
+@media (width > 750px) {
+    header {
+        background-color: orange
+    }
+    body {
+        background-color: black
+    }
 }
